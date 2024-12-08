@@ -2060,5 +2060,24 @@
 -A INPUT -s 194.110.247.0/24 -j REJECT --reject-with icmp-host-unreachable
 -A INPUT -s 213.232.235.0/24 -j REJECT --reject-with icmp-host-unreachable
 -A INPUT -s 217.156.64.0/23 -j REJECT --reject-with icmp-host-unreachable
+# ASAS39001 MTS PJSC
+-A INPUT -s 5.227.124.0/22 -j REJECT --reject-with icmp-host-unreachable
+-A INPUT -s 77.245.112.0/20 -j REJECT --reject-with icmp-host-unreachable
+-A INPUT -s 85.140.32.0/21 -j REJECT --reject-with icmp-host-unreachable
+-A INPUT -s 85.140.64.0/21 -j REJECT --reject-with icmp-host-unreachable
+-A INPUT -s 85.140.80.0/21 -j REJECT --reject-with icmp-host-unreachable
+-A INPUT -s 88.80.32.0/19 -j REJECT --reject-with icmp-host-unreachable
+-A INPUT -s 91.185.64.0/21 -j REJECT --reject-with icmp-host-unreachable
+-A INPUT -s 92.39.208.0/22 -j REJECT --reject-with icmp-host-unreachable
+-A INPUT -s 92.39.212.0/23 -j REJECT --reject-with icmp-host-unreachable
+-A INPUT -s 92.39.214.0/23 -j REJECT --reject-with icmp-host-unreachable
+-A INPUT -s 92.39.216.0/24 -j REJECT --reject-with icmp-host-unreachable
+-A INPUT -s 92.39.217.0/24 -j REJECT --reject-with icmp-host-unreachable
+-A INPUT -s 92.39.218.0/24 -j REJECT --reject-with icmp-host-unreachable
+-A INPUT -s 92.39.219.0/24 -j REJECT --reject-with icmp-host-unreachable
+-A INPUT -s 92.39.220.0/24 -j REJECT --reject-with icmp-host-unreachable
+-A INPUT -s 92.39.221.0/24 -j REJECT --reject-with icmp-host-unreachable
+-A INPUT -s 92.39.222.0/24 -j REJECT --reject-with icmp-host-unreachable
+-A INPUT -s 92.39.223.0/24 -j REJECT --reject-with icmp-host-unreachable
 
-# Last Update: 05/12/2024
+# Last Update: 08/12/2024
